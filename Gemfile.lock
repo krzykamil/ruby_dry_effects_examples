@@ -1,0 +1,89 @@
+GIT
+  remote: https://github.com/rspec/rspec-core.git
+  revision: 1c662c35f91f33946fdfbed431878f4798f06f70
+  branch: main
+  specs:
+    rspec-core (3.13.0.pre)
+      rspec-support (= 3.13.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-expectations.git
+  revision: 562d327cb951575d13db2a43b232c9ca1456ea6a
+  branch: main
+  specs:
+    rspec-expectations (3.13.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.13.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-mocks.git
+  revision: 868bf98d2aae5f0db15441a41b86b5f9346a12dd
+  branch: main
+  specs:
+    rspec-mocks (3.13.0.pre)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (= 3.13.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec-support.git
+  revision: 48c227f93d7b69ce28babb2dce0a9d08ac4d2654
+  branch: main
+  specs:
+    rspec-support (3.13.0.pre)
+
+GIT
+  remote: https://github.com/rspec/rspec.git
+  revision: cfb135a48b343fa75f28841f14874ea05e8e195f
+  branch: main
+  specs:
+    rspec (3.13.0.pre)
+      rspec-core (= 3.13.0.pre)
+      rspec-expectations (= 3.13.0.pre)
+      rspec-mocks (= 3.13.0.pre)
+
+GEM
+  specs:
+    activesupport (7.0.8)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.2.2)
+    diff-lcs (1.5.0)
+    dry-core (1.0.0)
+      concurrent-ruby (~> 1.0)
+      zeitwerk (~> 2.6)
+    dry-effects (0.4.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 1.0)
+      dry-inflector (~> 1.0)
+      dry-initializer (~> 3.0)
+      zeitwerk (~> 2.6)
+    dry-inflector (1.0.0)
+    dry-initializer (3.1.1)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
+    minitest (5.20.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    view_component (3.6.0)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
+    zeitwerk (2.6.12)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  dry-effects
+  rspec!
+  rspec-core!
+  rspec-expectations!
+  rspec-mocks!
+  rspec-support!
+  view_component
+
+BUNDLED WITH
+   2.4.10
